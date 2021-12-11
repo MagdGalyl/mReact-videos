@@ -21,9 +21,9 @@ class SearchBar extends React.Component{
         event.preventDefault();
 
         // TODO: Make sure we call
-        // callback from parent component
+        // callback from parent component (CALL the PROP)
         // To tell the APP that the user submit the form and to intiate geting data from youtube API
-
+        this.props.onFormSubmit(this.state.term)
     }
 
     render(){

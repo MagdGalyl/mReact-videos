@@ -1,1 +1,0 @@
-const KEY = 'AIzaSyBNZK_Er9BkBZRqT969HMmtqOV1tMXdsB8';
