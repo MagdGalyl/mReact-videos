@@ -12,6 +12,7 @@ const VideoList = ({videos, onVideoSelect}) => {
 
                 {/* // Making a prop with the video we got from MAPing */}
                <VideoItem 
+               key = {video.id.videoId}
                onVideoSelect={onVideoSelect} 
                video ={video}
                />
